@@ -1,0 +1,15 @@
+Pergunta: Como faço para calcular a complexidade (temporal ou espacial) de um algoritmo recursivo?
+
+Explicação das partes da pergunta:
+- a complexidade de um algoritmo é definida por uma relação de recorrência
+- complexidade temporal: é uma medida do tempo que o algoritmo leva para ser executado
+- complexidade espacial: é uma medida da memória que o algoritmo usa
+
+Resposta: 
+
+Como calcular a complexidade de um algoritmo recursivo:
+1. Veja quantas vezes a função se chama em cada passo.
+2. Observe quanto o problema diminui a cada chamada (ex: n-1, n/2).
+3. Identifique o tempo ou espaço gasto fora das chamadas recursivas (constante, linear, etc).
+4. Escreva a fórmula da recorrência: T(n)=número de chamadas×T(problema menor)+tempo extra
+5. Resolva a fórmula para achar a complexidade (ex: O(n), O(nlogn), O(logn) )
